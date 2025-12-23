@@ -1,6 +1,7 @@
 const app = require('express')();
 const { Server } = require("socket.io");
-
+const connectToDatabase = require("./database/index.js");
+connectToDatabase()
 
 
 
